@@ -39,7 +39,7 @@ RUN mkdir /tmp/cache && chmod -R 777 /tmp/cache
 # RUN chmod +x start_service.sh
 
 # Expose the port on which your service runs (7860)
-EXPOSE 7860
+EXPOSE 40000
 
 # Run the start_service.sh script or your application's entry point
 CMD ["./start_service.sh"]
